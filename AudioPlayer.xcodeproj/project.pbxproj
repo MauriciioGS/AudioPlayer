@@ -13,6 +13,9 @@
 		5B52E64F2916C89B004E8198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B52E64D2916C89B004E8198 /* Main.storyboard */; };
 		5B52E6512916C89E004E8198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B52E6502916C89E004E8198 /* Assets.xcassets */; };
 		5B52E6542916C89E004E8198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B52E6522916C89E004E8198 /* LaunchScreen.storyboard */; };
+		5B52E65C2916D97B004E8198 /* MUSIC3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B52E65B2916D97B004E8198 /* MUSIC3.mp3 */; };
+		5B52E65F2916D9BA004E8198 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52E65E2916D9BA004E8198 /* AVFoundation.framework */; };
+		5B52E6612916D9C1004E8198 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B52E6602916D9C1004E8198 /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		5B52E6502916C89E004E8198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B52E6532916C89E004E8198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B52E6552916C89E004E8198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B52E65B2916D97B004E8198 /* MUSIC3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MUSIC3.mp3; path = ../../../../Downloads/MUSIC3.mp3; sourceTree = "<group>"; };
+		5B52E65E2916D9BA004E8198 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5B52E6602916D9C1004E8198 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B52E6612916D9C1004E8198 /* AVKit.framework in Frameworks */,
+				5B52E65F2916D9BA004E8198 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,7 @@
 			children = (
 				5B52E6462916C89B004E8198 /* AudioPlayer */,
 				5B52E6452916C89B004E8198 /* Products */,
+				5B52E65D2916D9BA004E8198 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +65,7 @@
 		5B52E6462916C89B004E8198 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				5B52E65B2916D97B004E8198 /* MUSIC3.mp3 */,
 				5B52E6472916C89B004E8198 /* AppDelegate.swift */,
 				5B52E6492916C89B004E8198 /* SceneDelegate.swift */,
 				5B52E64B2916C89B004E8198 /* ViewController.swift */,
@@ -65,6 +75,15 @@
 				5B52E6552916C89E004E8198 /* Info.plist */,
 			);
 			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		5B52E65D2916D9BA004E8198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B52E6602916D9C1004E8198 /* AVKit.framework */,
+				5B52E65E2916D9BA004E8198 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B52E65C2916D97B004E8198 /* MUSIC3.mp3 in Resources */,
 				5B52E6542916C89E004E8198 /* LaunchScreen.storyboard in Resources */,
 				5B52E6512916C89E004E8198 /* Assets.xcassets in Resources */,
 				5B52E64F2916C89B004E8198 /* Main.storyboard in Resources */,
